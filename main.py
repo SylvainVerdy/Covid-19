@@ -27,7 +27,7 @@ class Main:
     def getImages(self, path):
         images = preparedata.read_img(path)
 
-main = Main()
 path="./data/images/"
 preparedata = PrepareData(path, df=pd.DataFrame())
+main = Main()
 main.getImages(path)

@@ -20,7 +20,7 @@ class PrepareData:
         images = [cv2.imread(file) for file in glob.glob(path +'*.jpg')]
         print([cv2.imread(file).shape for file in glob.glob(path +'*.jpg')])
         return images
-        """for filename in os.listdir(path):
-            print(filename)"""
+
+    
 
     
